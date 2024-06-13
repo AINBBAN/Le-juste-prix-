@@ -1,0 +1,88 @@
+html,
+body {
+    background-color: #232020;
+    min-inline-size: 500px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    color: #ff7315;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.bg-light {
+    background-color: #444;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#prix {
+    padding: 10px;
+    font-size: 1.2em;
+    width: calc(100% - 90px);
+    /* border: 2px #ff7315; */
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #ff7315;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #ac5919;
+    color: #232020;
+}
+
+small.text-danger {
+    display: block;
+    margin-top: 10px;
+    color: #f90505;
+}
+
+#instructions {
+    color: white;
+}
+
+.instruction {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #232020;
+}
+
+.plus {
+    background-color: #f67280;
+}
+
+.moins {
+    background-color: #ffa372;
+}
+
+.fini {
+    background-color: #0c9463;
+}
